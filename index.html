@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+    <link rel='stylesheet' href='https://cdn.datatables.net/1.10.23/css/jquery.dataTables.min.css'>
+    <link rel="stylesheet" href="style.css">
+
+    <title>Bank Branches</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="jumbotron">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <h1>Bank Branches</h1>
+                    </div>
+                    <div class="col-md-4">
+
+                        <div id="myQuestions" class="select-options">
+                            <select id="QuestionOptions" class="form-control">
+                                <option class="default-label" value="_bangalore" disabled selected>Select City</option>
+                                <option value="_bangalore">Bangalore</option>
+                                <option value="_delhi">Delhi</option>
+                                <option value="_mumbai">Mumbai</option>
+                                <option value="_kolkata">Kolkata</option>
+                                <option value="_pune">Pune</option>
+                            </select>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+
+
+        <div id="loader">
+            <img src="loading.gif" alt="">
+        </div>
+
+
+
+        <div class="mx-auto" style="width: 1000px;" id="myAnswers">
+            <div id="_bangalore">
+                <table id="bangalore" class="display" width="100%">
+                    <thead>
+                        <th>Fav</th>
+                        <th>IFSC</th>
+                        <th>Bank ID</th>
+                        <th>Branch</th>
+                        <th>Address</th>
+                        <th>City</th>
+                        <th>District</th>
+                        <th>State</th>
+                    </thead>
+                </table>
+            </div>
+
+            <div id="_delhi">
+                <table id="delhi" class="display" width="100%">
+                    <thead>
+                        <th>Fav</th>
+                        <th>IFSC</th>
+                        <th>Bank ID</th>
+                        <th>Branch</th>
+                        <th>Address</th>
+                        <th>City</th>
+                        <th>District</th>
+                        <th>State</th>
+                    </thead>
+                </table>
+            </div>
+
+            <div id="_mumbai">
+                <table id="mumbai" class="display" width="100%">
+                    <thead>
+                        <th>Fav</th>
+                        <th>IFSC</th>
+                        <th>Bank ID</th>
+                        <th>Branch</th>
+                        <th>Address</th>
+                        <th>City</th>
+                        <th>District</th>
+                        <th>State</th>
+                    </thead>
+                </table>
+            </div>
+
+            <div id="_kolkata">
+                <table id="kolkata" class="display" width="100%">
+                    <thead>
+                        <th>Fav</th>
+                        <th>IFSC</th>
+                        <th>Bank ID</th>
+                        <th>Branch</th>
+                        <th>Address</th>
+                        <th>City</th>
+                        <th>District</th>
+                        <th>State</th>
+                    </thead>
+                </table>
+            </div>
+
+            <div id="_pune">
+                <table id="pune" class="display" width="100%">
+                    <thead>
+                        <th>Fav</th>
+                        <th>IFSC</th>
+                        <th>Bank ID</th>
+                        <th>Branch</th>
+                        <th>Address</th>
+                        <th>City</th>
+                        <th>District</th>
+                        <th>State</th>
+                    </thead>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/1.10.23/js/jquery.dataTables.min.js"
+        type="text/javascript"></script>
+    <script type="text/javascript" src='https://cdn.datatables.net/1.10.23/js/dataTables.bootstrap.min.js'></script>
+    <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
